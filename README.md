@@ -2,7 +2,7 @@
 
 ---
 
-## 0  📦 Install Promptfoo
+##  📦 Install Promptfoo
 
 Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/intro/). Always refer to it whenever you need details.
 
