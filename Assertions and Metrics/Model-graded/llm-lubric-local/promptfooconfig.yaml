@@ -3,9 +3,7 @@ description: "Local Llama-3 (LM Studio) + cloud models"
 
 providers:
   - id: openai:gpt-4o                               # commercial
-  - id: anthropic:messages:claude-sonnet-4-20250514
-  - id: openai:gpt-5
-  - id: anthropic:messages:claude-sonnet-4-5-20250929                            
+  - id: anthropic:messages:claude-sonnet-4-20250514 # commercial
 
   # LOCAL MODEL served by LM Studio (OpenAI-compatible)
   - id: localai:chat                                 # generic chat endpoint
@@ -19,6 +17,13 @@ providers:
 prompts:
   - 'Translate the following text to French: "{{text}}"'
 
+defaultTest:
+  options:
+    provider: openai:gpt-4.1-mini
+
 tests:
   - vars:
       text: "Hello, how are you?"
+    assert:
+      - type: llm-rubric
+        value: "Respone is correct, fluent German translation."    
