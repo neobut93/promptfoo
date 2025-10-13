@@ -1,14 +1,8 @@
-# Day 2 – Getting Productive with **Promptfoo**
-
-Welcome to Day 2 of **How to Test AI Apps**.  
-Yesterday you explored common failure modes of LLMs; today you’ll learn how to **codify those checks in Promptfoo** so tests run automatically.
-
-
-Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/intro/). Always refer to it whenever you need details.
+# **Promptfoo**
 
 ---
 
-## 0  📦 Install Promptfoo
+##  📦 Install Promptfoo
 
 Here is the official [Promptfoo documentation](https://www.promptfoo.dev/docs/intro/). Always refer to it whenever you need details.
 
@@ -135,5 +129,3 @@ Automate pass/fail judgment.
 
 
 ---
-
-Happy testing! 🚀
