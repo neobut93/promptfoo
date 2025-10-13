@@ -1,0 +1,3151 @@
+{
+  "evalId": "eval-c8t-2025-10-12T23:37:09",
+  "results": {
+    "version": 3,
+    "timestamp": "2025-10-12T23:37:09.130Z",
+    "prompts": [
+      {
+        "raw": "Translate the following text to French: \"{{text}}\"",
+        "label": "Translate the following text to French: \"{{text}}\"",
+        "id": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "provider": "openai:gpt-4o",
+        "metrics": {
+          "score": 10,
+          "testPassCount": 10,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 5442,
+          "tokenUsage": {
+            "prompt": 210,
+            "completion": 64,
+            "cached": 0,
+            "total": 274,
+            "numRequests": 10,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.001165
+        }
+      },
+      {
+        "raw": "Translate the following text to French: \"{{text}}\"",
+        "label": "Translate the following text to French: \"{{text}}\"",
+        "id": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "provider": "anthropic:messages:claude-sonnet-4-20250514",
+        "metrics": {
+          "score": 10,
+          "testPassCount": 10,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 32201,
+          "tokenUsage": {
+            "prompt": 220,
+            "completion": 630,
+            "cached": 0,
+            "total": 850,
+            "numRequests": 10,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.01011
+        }
+      },
+      {
+        "raw": "Translate the following text to French: \"{{text}}\"",
+        "label": "Translate the following text to French: \"{{text}}\"",
+        "id": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "provider": "openai:gpt-5",
+        "metrics": {
+          "score": 10,
+          "testPassCount": 10,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 138448,
+          "tokenUsage": {
+            "prompt": 200,
+            "completion": 2646,
+            "cached": 0,
+            "total": 2846,
+            "numRequests": 10,
+            "completionDetails": {
+              "reasoning": 2496,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.02671
+        }
+      },
+      {
+        "raw": "Translate the following text to French: \"{{text}}\"",
+        "label": "Translate the following text to French: \"{{text}}\"",
+        "id": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "provider": "anthropic:messages:claude-sonnet-4-5-20250929",
+        "metrics": {
+          "score": 10,
+          "testPassCount": 10,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 26234,
+          "tokenUsage": {
+            "prompt": 220,
+            "completion": 440,
+            "cached": 0,
+            "total": 660,
+            "numRequests": 10,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.00726
+        }
+      },
+      {
+        "raw": "Translate the following text to French: \"{{text}}\"",
+        "label": "Translate the following text to French: \"{{text}}\"",
+        "id": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "provider": "localai:chat",
+        "metrics": {
+          "score": 10,
+          "testPassCount": 10,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 6832,
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 10,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0.0001225,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "b2702a1f-a2cb-48d7-94a9-7b48e0e3327e",
+        "latencyMs": 586,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment ça va ?\"",
+          "tokenUsage": {
+            "total": 28,
+            "prompt": 21,
+            "completion": 7,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0001225
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "c7a0d442-a221-42bb-85e0-b662f0a5d106",
+        "latencyMs": 1351,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment vas-tu? (Good day, how are you?)"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "da3a04d7-7a67-479e-9297-ea86d3faa06c",
+        "latencyMs": 2674,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "013dc3de-9db3-4772-be3d-50377a6ca6b3",
+        "latencyMs": 3203,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0014550000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "81b80f3c-3e74-4969-bcb9-5b98e4c3b2a8",
+        "latencyMs": 5563,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 163,
+            "prompt": 20,
+            "completion": 143,
+            "completionDetails": {
+              "reasoning": 128,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0014550000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "9ffbb024-4665-4c68-92c4-815c5a9bf995",
+        "latencyMs": 454,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "bb285297-b8bf-41be-bfee-238e947530d9",
+        "latencyMs": 3166,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "e517fdfd-7c27-416c-b3ca-53deef89ec19",
+        "latencyMs": 2848,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "f6dd3ae7-6af1-4545-91bf-897e2df6cc28",
+        "latencyMs": 595,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour! Comment vas-tu?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.002095,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "f1e47d90-cfa3-4fc9-b980-b7da01f352ba",
+        "latencyMs": 7219,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 227,
+            "prompt": 20,
+            "completion": 207,
+            "completionDetails": {
+              "reasoning": 192,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.002095
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0001225,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "959137d1-dfdd-4c3c-b916-f7bbe31eac7b",
+        "latencyMs": 777,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment ça va ?\"",
+          "tokenUsage": {
+            "total": 28,
+            "prompt": 21,
+            "completion": 7,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0001225
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "c86f02e3-9c2a-4181-ab2a-28426e167e18",
+        "latencyMs": 2565,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "797faa9f-7f0a-4483-aadd-30a93ee644ec",
+        "latencyMs": 545,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour! Comment vas-tu?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "cb7e7e5b-030d-4e13-968b-b354269bbd45",
+        "latencyMs": 4394,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.003375,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "47a6370e-7b30-4b83-b669-33d1ce8ceb9e",
+        "latencyMs": 14313,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment allez-vous ?",
+          "tokenUsage": {
+            "total": 355,
+            "prompt": 20,
+            "completion": 335,
+            "completionDetails": {
+              "reasoning": 320,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.003375
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "df5eaaef-1869-4441-ad2b-6edc6288aa3d",
+        "latencyMs": 541,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "c7433888-56e4-4106-93d3-d7078764fcf6",
+        "latencyMs": 3029,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "e902a59f-069c-460f-b8c6-cbe3bc48f211",
+        "latencyMs": 2509,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "ffc7873b-8393-49dd-9479-de18846a695c",
+        "latencyMs": 655,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour, comment allez-vous?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.002735,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "0c07ef0b-3338-437d-8d22-745933a7e646",
+        "latencyMs": 9333,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 291,
+            "prompt": 20,
+            "completion": 271,
+            "completionDetails": {
+              "reasoning": 256,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.002735
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0001225,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "ff845495-27bb-42bf-bf39-07ced3a92cb2",
+        "latencyMs": 470,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment ça va ?\"",
+          "tokenUsage": {
+            "total": 28,
+            "prompt": 21,
+            "completion": 7,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0001225
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "9e5641a3-5562-4c89-ac8a-dc3b7e1f207c",
+        "latencyMs": 2990,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "97c905d2-d966-43ed-95c2-a349ecfa1409",
+        "latencyMs": 2739,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "8dc9fbf3-b01a-496a-b247-3dfc40f5db6a",
+        "latencyMs": 653,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour! Comment vas-tu?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.002735,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "08ddf990-213f-45e8-b9ba-55f54c24c24f",
+        "latencyMs": 9663,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment allez-vous ?",
+          "tokenUsage": {
+            "total": 291,
+            "prompt": 20,
+            "completion": 271,
+            "completionDetails": {
+              "reasoning": 256,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.002735
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "b1557aa9-719d-4838-b56d-e1b4be74fff9",
+        "latencyMs": 502,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "cb3e674a-3c74-4f27-b073-02d0e5e16fee",
+        "latencyMs": 3234,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "dc7b834f-52b4-4454-8c64-dc1d51e85ccd",
+        "latencyMs": 2591,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "1a5c4d7d-5428-4eee-b205-9381264e2491",
+        "latencyMs": 598,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, Comment allez-vous?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.002095,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "f22fa22a-fe2e-441a-949a-f22efe9cfe2b",
+        "latencyMs": 11545,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment allez-vous ?",
+          "tokenUsage": {
+            "total": 227,
+            "prompt": 20,
+            "completion": 207,
+            "completionDetails": {
+              "reasoning": 192,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.002095
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "67f94d3b-edfd-48ea-b85d-c1f0d8305a57",
+        "latencyMs": 528,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "b93e930c-d0e6-4bf6-9b7a-7d8199d2f917",
+        "latencyMs": 2474,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "d429a5fa-41ba-44aa-a117-660f6659fd64",
+        "latencyMs": 3184,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "08d970d9-6a4c-4e58-91e4-ef95a430512b",
+        "latencyMs": 670,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour ! Comment allez-vous ?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0014550000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "511e0073-6f00-4e94-b642-e78230e05ccf",
+        "latencyMs": 7066,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 163,
+            "prompt": 20,
+            "completion": 143,
+            "completionDetails": {
+              "reasoning": 128,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0014550000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0001225,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "e13158f4-9c48-4820-abd4-f0269025bca2",
+        "latencyMs": 539,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment ça va ?\"",
+          "tokenUsage": {
+            "total": 28,
+            "prompt": 21,
+            "completion": 7,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0001225
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "7f9317a1-d2c7-4fea-b2f0-a1e224e9d446",
+        "latencyMs": 3003,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "4c74d15c-1206-4bc1-a058-fd64b1aa53c0",
+        "latencyMs": 616,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour, comment vas-tu?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "7c78df42-04be-4ada-8ab4-1c2e0734195c",
+        "latencyMs": 2557,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.003375,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "3cfadd95-09d3-463d-9392-a897fd230291",
+        "latencyMs": 21474,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 355,
+            "prompt": 20,
+            "completion": 335,
+            "completionDetails": {
+              "reasoning": 320,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.003375
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "973c64e1-6d58-4a5c-beca-3a7f41a41823",
+        "latencyMs": 577,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "8f077854-296b-4f65-860a-d5aa2bfd0e8a",
+        "latencyMs": 3029,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "de546101-6c9e-4983-8e1f-494017b572f3",
+        "latencyMs": 583,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\nBonjour, comment vas-tu?"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "3527b77e-ccb1-4067-95f0-22ba54eb0cc7",
+        "latencyMs": 2649,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.004015,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "6188b936-e276-4f31-ad26-714bcd4263b1",
+        "latencyMs": 28664,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 419,
+            "prompt": 20,
+            "completion": 399,
+            "completionDetails": {
+              "reasoning": 384,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.004015
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00011250000000000001,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "cf492519-eda6-4e3e-be9a-9a2d3a18a44e",
+        "latencyMs": 468,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 21,
+            "completion": 6,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00011250000000000001
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001011,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "a28f035a-b8ff-41cb-92f6-c3229c7c1b8d",
+        "latencyMs": 2969,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 1,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": ""
+        },
+        "response": {
+          "output": "The French translation is: \"Bonjour, comment allez-vous ?\"\n\nNote: This is the formal version. If you want the informal version, it would be \"Salut, comment ça va ?\" or \"Bonjour, comment tu vas ?\"",
+          "tokenUsage": {
+            "total": 85,
+            "prompt": 22,
+            "completion": 63
+          },
+          "finishReason": "stop",
+          "cost": 0.001011
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000726,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "9b2bbaf0-bc9e-459e-9b10-3f2154c42e5f",
+        "latencyMs": 2628,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 3,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-5-20250929",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour, comment allez-vous ?\"\n\n(or informally: \"Salut, comment vas-tu ?\" / \"Salut, ça va ?\")",
+          "tokenUsage": {
+            "total": 66,
+            "prompt": 22,
+            "completion": 44
+          },
+          "finishReason": "stop",
+          "cost": 0.000726
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "c144474b-368d-4091-bbe8-0b9f62004b36",
+        "latencyMs": 566,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 4,
+        "provider": {
+          "id": "localai:chat",
+          "label": ""
+        },
+        "response": {
+          "output": "\"Bonjour! Comment vas-tu?\""
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.003375,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          }
+        },
+        "id": "9fe62e47-352e-4ad3-aa81-a7d1b9678e12",
+        "latencyMs": 23608,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Translate the following text to French: \"Hello, how are you?\"",
+          "label": "Translate the following text to French: \"{{text}}\""
+        },
+        "promptId": "db993f8ff0c1a5950b8c4014cf83c47669fa129dfc3b3318d85fcfd9fb08a312",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour, comment ça va ?",
+          "tokenUsage": {
+            "total": 355,
+            "prompt": 20,
+            "completion": 335,
+            "completionDetails": {
+              "reasoning": 320,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.003375
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello, how are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "vars": {
+          "text": "Hello, how are you?"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 50,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 850,
+        "completion": 3780,
+        "cached": 0,
+        "total": 4630,
+        "numRequests": 50,
+        "completionDetails": {
+          "reasoning": 2496,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "description": "Local Llama-3 (LM Studio) + cloud models",
+    "prompts": [
+      "Translate the following text to French: \"{{text}}\""
+    ],
+    "providers": [
+      {
+        "id": "openai:gpt-4o"
+      },
+      {
+        "id": "anthropic:messages:claude-sonnet-4-20250514"
+      },
+      {
+        "id": "openai:gpt-5"
+      },
+      {
+        "id": "anthropic:messages:claude-sonnet-4-5-20250929"
+      },
+      {
+        "id": "localai:chat",
+        "config": {
+          "apiBaseUrl": "http://localhost:1234/v1",
+          "apiKey": "lmstudio",
+          "model": "llama-3.2-3b-instruct",
+          "temperature": 0.7,
+          "max_tokens": 300
+        }
+      }
+    ],
+    "tests": [
+      {
+        "vars": {
+          "text": "Hello, how are you?"
+        }
+      }
+    ],
+    "sharing": false,
+    "outputPath": [
+      "results.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.118.12",
+    "nodeVersion": "v24.8.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2025-10-12T23:38:09.828Z",
+    "evaluationCreatedAt": "2025-10-12T23:37:09.130Z"
+  }
+}
