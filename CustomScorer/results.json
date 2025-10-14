@@ -1,0 +1,433 @@
+{
+  "evalId": "eval-JHy-2025-10-14T23:31:44",
+  "results": {
+    "version": 3,
+    "timestamp": "2025-10-14T23:31:44.801Z",
+    "prompts": [
+      {
+        "raw": "Greet the user in French.",
+        "label": "Greet the user in French.",
+        "id": "7cbf00640e10d44528380e3662dbc83637498ff474a05ce33eae0bff1aaf65f2",
+        "provider": "openai:gpt-5",
+        "metrics": {
+          "score": 0.5714285714285714,
+          "testPassCount": 0,
+          "testFailCount": 1,
+          "testErrorCount": 0,
+          "assertPassCount": 3,
+          "assertFailCount": 4,
+          "totalLatencyMs": 2294,
+          "tokenUsage": {
+            "prompt": 13,
+            "completion": 83,
+            "cached": 0,
+            "total": 96,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 64,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 955,
+              "prompt": 809,
+              "completion": 146,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {
+            "Correctness": 1,
+            "Tone": 1,
+            "Greeting": 1,
+            "Topicality": 0.5427701360612067,
+            "Performance": 0
+          },
+          "namedScoresCount": {
+            "Correctness": 1,
+            "Tone": 1,
+            "Greeting": 1,
+            "Topicality": 1,
+            "Performance": 1
+          },
+          "cost": 0.0008462500000000001
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0.0008462500000000001,
+        "error": "Zero-on-fail; Correctness: raw=1.00, thr=0.00, used=1.00, w=2 | Tone: raw=1.00, thr=0.00, used=1.00, w=1 | Topicality: raw=0.54, thr=0.80, used=0.00, w=1 | Greeting: raw=1.00, thr=0.80, used=1.00, w=1 | Performance: raw=0.00, thr=0.60, used=0.00, w=2",
+        "gradingResult": {
+          "pass": false,
+          "score": 0.5714285714285714,
+          "reason": "Zero-on-fail; Correctness: raw=1.00, thr=0.00, used=1.00, w=2 | Tone: raw=1.00, thr=0.00, used=1.00, w=1 | Topicality: raw=0.54, thr=0.80, used=0.00, w=1 | Greeting: raw=1.00, thr=0.80, used=1.00, w=1 | Performance: raw=0.00, thr=0.60, used=0.00, w=2",
+          "namedScores": {
+            "Correctness": 1,
+            "Tone": 1,
+            "Greeting": 1,
+            "Topicality": 0.5427701360612067,
+            "Performance": 0
+          },
+          "tokensUsed": {
+            "total": 955,
+            "prompt": 809,
+            "completion": 146,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "contains",
+                "value": "Bonjour",
+                "weight": 2,
+                "metric": "Correctness"
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "Tone is friendly and the text is in French.",
+                "weight": 1,
+                "metric": "Tone"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The tone is friendly, as indicated by the polite greeting and offer of help, and the text is in French.",
+              "tokensUsed": {
+                "total": 239,
+                "prompt": 199,
+                "completion": 40,
+                "cached": 0,
+                "numRequests": 0,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "answer-relevance",
+                "threshold": 0.8,
+                "weight": 1,
+                "metric": "Topicality"
+              },
+              "pass": false,
+              "score": 0.5427701360612067,
+              "reason": "Relevance 0.54 is less than threshold 0.8",
+              "tokensUsed": {
+                "total": 470,
+                "prompt": 410,
+                "completion": 60,
+                "cached": 0,
+                "numRequests": 0,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              },
+              "metadata": {
+                "generatedQuestions": [
+                  {
+                    "question": "What is the English translation of \"Bonjour ! Comment puis-je vous aider aujourd’hui ?\"",
+                    "similarity": 0.4799377200340302
+                  },
+                  {
+                    "question": "Quelle est la signification de la salutation \"Bonjour\" en français et comment pourrait-on l'utiliser pour offrir de l'aide à quelqu'un ?",
+                    "similarity": 0.5199574417287496
+                  },
+                  {
+                    "question": "What is a polite way to greet someone and offer assistance in French?",
+                    "similarity": 0.6284152464208405
+                  }
+                ],
+                "averageSimilarity": 0.5427701360612067,
+                "threshold": 0.8
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "The response is engaging and appropriate for a friendly greeting.",
+                "threshold": 0.8,
+                "weight": 1,
+                "metric": "Greeting"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The response opens with 'Bonjour!', a warm French greeting, and offers further assistance in a polite and friendly manner, which is engaging and appropriate.",
+              "tokensUsed": {
+                "total": 246,
+                "prompt": 200,
+                "completion": 46,
+                "cached": 0,
+                "numRequests": 0,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Aggregate score 0.00 < 0.6 threshold",
+              "namedScores": {},
+              "tokensUsed": {
+                "total": 0,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 0,
+                "numRequests": 0
+              },
+              "componentResults": [
+                {
+                  "pass": false,
+                  "score": 0,
+                  "reason": "Cost 0.00085 is greater than threshold 1e-7",
+                  "assertion": {
+                    "type": "cost",
+                    "threshold": 1e-7
+                  }
+                },
+                {
+                  "pass": false,
+                  "score": 0,
+                  "reason": "Latency 2294ms is greater than threshold 150ms",
+                  "assertion": {
+                    "type": "latency",
+                    "threshold": 150
+                  }
+                }
+              ]
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Cost 0.00085 is greater than threshold 1e-7",
+              "assertion": {
+                "type": "cost",
+                "threshold": 1e-7
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Latency 2294ms is greater than threshold 150ms",
+              "assertion": {
+                "type": "latency",
+                "threshold": 150
+              }
+            }
+          ]
+        },
+        "id": "ee9f0589-8bc6-44ba-b06e-1c3dc63c331a",
+        "latencyMs": 2294,
+        "namedScores": {
+          "Correctness": 1,
+          "Tone": 1,
+          "Greeting": 1,
+          "Topicality": 0.5427701360612067,
+          "Performance": 0
+        },
+        "prompt": {
+          "raw": "Greet the user in French.",
+          "label": "Greet the user in French."
+        },
+        "promptId": "7cbf00640e10d44528380e3662dbc83637498ff474a05ce33eae0bff1aaf65f2",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-5",
+          "label": ""
+        },
+        "response": {
+          "output": "Bonjour ! Comment puis-je vous aider aujourd’hui ?",
+          "tokenUsage": {
+            "total": 96,
+            "prompt": 13,
+            "completion": 83,
+            "completionDetails": {
+              "reasoning": 64,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0008462500000000001
+        },
+        "score": 0.5714285714285714,
+        "success": false,
+        "testCase": {
+          "threshold": 0.6,
+          "assert": [
+            {
+              "type": "contains",
+              "value": "Bonjour",
+              "weight": 2,
+              "metric": "Correctness"
+            },
+            {
+              "type": "llm-rubric",
+              "value": "Tone is friendly and the text is in French.",
+              "weight": 1,
+              "metric": "Tone"
+            },
+            {
+              "type": "answer-relevance",
+              "threshold": 0.8,
+              "weight": 1,
+              "metric": "Topicality"
+            },
+            {
+              "type": "llm-rubric",
+              "value": "The response is engaging and appropriate for a friendly greeting.",
+              "threshold": 0.8,
+              "weight": 1,
+              "metric": "Greeting"
+            },
+            {
+              "type": "assert-set",
+              "threshold": 0.6,
+              "metric": "Performance",
+              "weight": 2,
+              "assert": [
+                {
+                  "type": "cost",
+                  "threshold": 1e-7
+                },
+                {
+                  "type": "latency",
+                  "threshold": 150
+                }
+              ]
+            }
+          ],
+          "vars": {},
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {},
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 1
+      }
+    ],
+    "stats": {
+      "successes": 0,
+      "failures": 1,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 13,
+        "completion": 83,
+        "cached": 0,
+        "total": 96,
+        "numRequests": 1,
+        "completionDetails": {
+          "reasoning": 64,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0
+        },
+        "assertions": {
+          "total": 955,
+          "prompt": 809,
+          "completion": 146,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "description": "Require a friendly French greeting that includes 'Bonjour' and stays within budget (either cheap or fast).",
+    "prompts": [
+      "Greet the user in French."
+    ],
+    "providers": [
+      "openai:gpt-5"
+    ],
+    "tests": [
+      {
+        "threshold": 0.6,
+        "assert": [
+          {
+            "type": "contains",
+            "value": "Bonjour",
+            "weight": 2,
+            "metric": "Correctness"
+          },
+          {
+            "type": "llm-rubric",
+            "value": "Tone is friendly and the text is in French.",
+            "weight": 1,
+            "metric": "Tone"
+          },
+          {
+            "type": "answer-relevance",
+            "threshold": 0.8,
+            "weight": 1,
+            "metric": "Topicality"
+          },
+          {
+            "type": "llm-rubric",
+            "value": "The response is engaging and appropriate for a friendly greeting.",
+            "threshold": 0.8,
+            "weight": 1,
+            "metric": "Greeting"
+          },
+          {
+            "type": "assert-set",
+            "threshold": 0.6,
+            "metric": "Performance",
+            "weight": 2,
+            "assert": [
+              {
+                "type": "cost",
+                "threshold": 1e-7
+              },
+              {
+                "type": "latency",
+                "threshold": 150
+              }
+            ]
+          }
+        ],
+        "assertScoringFunction": "file://./override.py:calculate_score"
+      }
+    ],
+    "sharing": false,
+    "outputPath": [
+      "results.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.118.12",
+    "nodeVersion": "v24.8.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2025-10-14T23:31:52.201Z",
+    "evaluationCreatedAt": "2025-10-14T23:31:44.801Z"
+  }
+}
