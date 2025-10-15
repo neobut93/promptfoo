@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "F-Score Classification Example - Sentiment Analysis"
+
+prompts:
+  - file://prompts/sentiment_prompt.txt
+
+providers:
+  - id: openai:gpt-4o-mini
+    config:
+      temperature: 0
+      response_format:
+        type: json_object
+
+# Load sentiment classification tests with F-score tracking
+tests: file://tests/fscore_simple.csv
+
+# Define how to calculate F-score metrics
+derivedMetrics:
+  # Precision = TP / (TP + FP)
+  # "Of all the things I said were positive, how many actually were?"
+  - name: precision
+    value: true_positives / (true_positives + false_positives)
+
+  # Recall = TP / (TP + FN)
+  # "Of all the things that were positive, how many did I catch?"
+  - name: recall
+    value: true_positives / (true_positives + false_negatives)
+
+  # F1 Score = 2 * (precision * recall) / (precision + recall)
+  # Harmonic mean that balances both precision and recall
+  - name: f1_score
+    value: 2 * true_positives / (2 * true_positives + false_positives + false_negatives)
+
+# Default test configuration
+defaultTest:
+  assert:
+    # Assertion 1: Check if sentiment matches (accuracy metric)
+    - type: javascript
+      value: JSON.parse(output).sentiment === context.vars.sentiment
+      metric: accuracy
+
+    # Assertion 2: Track true positives (TP)
+    # When model says "positive" AND actual is "positive"
+    - type: javascript
+      value: "JSON.parse(output).sentiment === 'positive' && context.vars.sentiment === 'positive' ? 1 : 0"
+      metric: true_positives
+      weight: 0  # Don't affect pass/fail, just track the metric
+
+    # Assertion 3: Track false positives (FP)
+    # When model says "positive" BUT actual is "negative"
+    - type: javascript
+      value: "JSON.parse(output).sentiment === 'positive' && context.vars.sentiment === 'negative' ? 1 : 0"
+      metric: false_positives
+      weight: 0
+
+    # Assertion 4: Track false negatives (FN)
+    # When model says "negative" BUT actual is "positive"
+    - type: javascript
+      value: "JSON.parse(output).sentiment === 'negative' && context.vars.sentiment === 'positive' ? 1 : 0"
+      metric: false_negatives
+      weight: 0

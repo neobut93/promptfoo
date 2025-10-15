@@ -1,0 +1,4 @@
+question,__expected1,__expected2,__expected3
+"What is 2+2?","equals: 4","contains: four","javascript: output.length < 10"
+"What is the capital of France?","icontains: paris","javascript: output.length < 50","llm-rubric: Answers the question correctly"
+"Name three primary colors","contains-all: red,blue,yellow","javascript: output.length > 10","llm-rubric: Lists primary colors"

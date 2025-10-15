@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "CSV Format Test Examples"
+
+prompts:
+  - file://prompts/prompt.txt
+
+providers:
+  - openai:gpt-4o-mini
+  - openai:gpt-4
+
+# You can test different CSV formats by uncommenting the one you want to use:
+
+# Basic CSV - simple question/answer format
+tests: file://tests/basic_tests.csv
+
+# CSV with single assertion per test
+# tests: file://tests/tests_with_assertions.csv
+
+# CSV with multiple assertions per test
+# tests: file://tests/tests_multiple_assertions.csv
+
+# CSV with metadata for filtering
+# tests: file://tests/tests_with_metadata.csv
+
+# CSV with array metadata (tags)
+# tests: file://tests/tests_with_tags.csv
+
+# Or load all CSV files at once
+# tests: 
+#   - file://tests/*.csv

@@ -1,0 +1,11 @@
+text,sentiment,__description
+"This product is amazing! I love it!","positive","Positive: enthusiastic review"
+"Absolutely terrible experience. Very disappointed.","negative","Negative: strong disappointment"
+"Best purchase ever! Highly recommend!","positive","Positive: strong recommendation"
+"Waste of money. Do not buy.","negative","Negative: strong warning"
+"It's okay, nothing special.","neutral","Neutral: ambiguous sentiment"
+"Exceeded all my expectations!","positive","Positive: exceeded expectations"
+"Horrible quality, broke after one use.","negative","Negative: quality complaint"
+"Great value for the price!","positive","Positive: value statement"
+"Not worth it at all.","negative","Negative: not worth it"
+"Perfect! Exactly what I needed.","positive","Positive: meets expectations"

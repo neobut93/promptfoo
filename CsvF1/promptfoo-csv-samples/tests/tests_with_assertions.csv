@@ -1,0 +1,6 @@
+question,__expected
+"Hello world","contains: Hello"
+"Calculate 5 * 6","equals: 30"
+"What's the weather like today?","llm-rubric: Provides weather information"
+"Translate 'hello' to Spanish","icontains: hola"
+"Write a haiku about spring","javascript: output.split('\n').length === 3"

@@ -1,0 +1,6 @@
+question,__expected,__metadata:category,__metadata:difficulty,__metadata:priority
+"What is 2+2?","equals: 4","math","easy","high"
+"Explain quantum physics","llm-rubric: Accurate explanation","science","hard","medium"
+"What is the capital of Japan?","icontains: tokyo","geography","easy","high"
+"Solve for x: 2x + 5 = 15","contains: 5","math","medium","high"
+"Describe photosynthesis","llm-rubric: Explains the process accurately","science","medium","low"

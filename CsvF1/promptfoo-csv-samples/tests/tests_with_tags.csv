@@ -1,0 +1,4 @@
+question,__expected,__metadata:tags[]
+"Machine learning","llm-rubric: Explains ML concepts","ai,technology,data science"
+"Climate change","llm-rubric: Discusses environmental impact","environment,science,global warming"
+"Blockchain technology","llm-rubric: Explains blockchain accurately","technology,cryptocurrency,distributed systems"

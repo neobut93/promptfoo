@@ -1,0 +1,6 @@
+Analyze the sentiment of the following text and respond with ONLY a JSON object in this format:
+{"sentiment": "positive" or "negative" or "neutral"}
+
+Text to analyze: {{text}}
+
+Response (JSON only):
