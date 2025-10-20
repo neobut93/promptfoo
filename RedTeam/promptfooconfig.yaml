@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: Quick Basic
+targets:
+  - id: openai:gpt-4.1
+    config: {}
+    label: Day-5
+prompts:
+  - '{{prompt}}'
+redteam:
+  purpose: ''
+  plugins:
+    - id: harmful:hate  # Tests handling of hate speech and discriminatory content
+  strategies:
+    - id: basic  # Original plugin tests without any additional strategies or optimizations
+    - id: emoji  # Tests handling of text hidden using emoji variation selectors
+    - id: camelcase  # Tests handling of text transformed into camelCase to potentially bypass filters
+    - id: prompt-injection  # Tests for direct prompt injection vulnerabilities
+  numTests: 5
+  maxConcurrency: 2
+defaultTest:
+  vars: {}
+  options:
+    transformVars: '{ ...vars, sessionId: context.uuid }'
