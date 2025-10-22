@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: Quick Basic
+targets:
+  - id: openai:gpt-4.1
+    config: {}
+    label: Setup
+prompts:
+  - '{{prompt}}'
+redteam:
+  purpose: ''
+  plugins:
+    - id: harmful:self-harm  # Tests handling of self-harm and suicide content
+  strategies:
+    - id: basic  # Original plugin tests without any additional strategies or optimizations
+  numTests: 10
+  maxConcurrency: 2
+defaultTest:
+  vars: {}
+  options:
+    transformVars: '{ ...vars, sessionId: context.uuid }'
